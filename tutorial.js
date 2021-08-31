@@ -26,7 +26,7 @@ In Client LUA File:
 
 
 function setDisplay(bool)
-    SetNUIFocus(bool, bool)
+    SetNuiFocus(bool, bool)
     SendNUIMessage({
         type:"ui",
         display:bool
